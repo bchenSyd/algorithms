@@ -1,0 +1,11 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "facebook.js",
+  "scripts": {
+    "debug": "node --inspect-brk index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
