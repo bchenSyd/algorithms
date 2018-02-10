@@ -1,3 +1,10 @@
+/**
+ * 只能用递归来做，LIS要维护的是一个dp_ending_with比较容易维护，但这里要维护的是一个combination
+ * 无法维护
+ * @param {Number} n 
+ * @param {Number} k 
+ */
+
 function combine(n, k) {
     if (n < 1 || k < 1 || n < k) {
         return [];
