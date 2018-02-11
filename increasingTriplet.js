@@ -13,7 +13,7 @@ function increasingTriplet(arr){
         }else if(arr[i] <= secondMin){
             secondMin =arr[i]
         } else{
-            // both min and secondMin are set, and we have found an try greater than 2nd Min
+            // both min and secondMin are set, and we have found an entry greater than 2nd Min
             debugger;
             return true;
         }
