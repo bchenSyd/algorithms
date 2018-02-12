@@ -20,6 +20,6 @@ function combine(n, k) {
     return _nSelected.concat(_nNotSelected);
 
 
-};
+}
 
 console.log(combine(5, 3))

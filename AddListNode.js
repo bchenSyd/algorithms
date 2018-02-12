@@ -47,7 +47,7 @@ const _result = addListNodes(l1, l2);
 let result = 0;
 let i = _result;
 let weight = 1;
-//  递归只适用于collection，　不适应于LinkedList;
+//  递归只适用于collection，不适应于LinkedList;
 //  LinkedList 只能顺序遍历
 while (i) {
     result += i.val * weight;

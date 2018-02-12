@@ -20,6 +20,7 @@ const arr = [];
 parseTree(root, arr);
 console.log(arr);
 
+// eslint-disable-next-line
 function deserializeTree(arr){
     const root = new Node(arr[0]);
     let i = 1;

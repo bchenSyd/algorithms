@@ -14,7 +14,7 @@ function increasingTriplet(arr){
             secondMin =arr[i]
         } else{
             // both min and secondMin are set, and we have found an entry greater than 2nd Min
-            debugger;
+            
             return true;
         }
     }

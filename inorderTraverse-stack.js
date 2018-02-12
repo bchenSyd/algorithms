@@ -18,7 +18,7 @@ function Traverse(node) {
     }
     const stack = [node];
     while (stack.length > 0) {
-        debugger;
+        
         if (stack[0].left && !stack[0].leftChecked) {
             // if node has left tree, push
             stack[0].leftChecked = true;  // space requirement O(n)
