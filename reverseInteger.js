@@ -30,13 +30,15 @@ function reverse(x) {
 
     while (x != 0) {
         var tail = x % 10;
+        // ************** over flow check ***************
         var newResult = result * 10 + tail;
         if (parseInt((newResult - tail) / 10) != result) {
             // overflow
             return 0;
         }
+        // **********************************************
         result = newResult;
-        x = x / 10;
+        x = parseInt(x / 10);
     }
 
     return result;
